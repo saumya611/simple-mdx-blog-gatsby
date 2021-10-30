@@ -42,6 +42,7 @@ function Footer() {
                         <img src={data.twitter.publicURL} alt="twitter" />
                     </a>
                 </FooterSocialIcons>
+                <p>@ 2021 Company. All right reserved.</p>
             </FooterSocialWrapper>
         </FooterWrapper>
     )
