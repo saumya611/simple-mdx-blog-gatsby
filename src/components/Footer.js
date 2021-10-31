@@ -4,7 +4,9 @@ import {
     FooterWrapper,
     FooterSocialIcons,
     FooterSocialWrapper,
-} from '../elements/FooterElements';
+    P,
+} from '../elements';
+
 
 function Footer() {
 
@@ -42,7 +44,7 @@ function Footer() {
                         <img src={data.twitter.publicURL} alt="twitter" />
                     </a>
                 </FooterSocialIcons>
-                <p>@ 2021 Company. All right reserved.</p>
+                <P size="xSmall" color="dark3">@ 2021 Company. All right reserved.</P>
             </FooterSocialWrapper>
         </FooterWrapper>
     )

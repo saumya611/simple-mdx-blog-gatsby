@@ -7,3 +7,5 @@ export * from './FooterElements';
 export * from './ImageElements';
 
 export * from './ContentElements';
+
+export * from './TypographyElements';
